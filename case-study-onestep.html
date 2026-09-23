@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One Step — Case Study — Sandesh Sharma</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #14171F; --base: #FAFAF8; --accent: #2354E6; --muted: #6B7280; --line: #E6E4DF; --white: #FFFFFF;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', sans-serif; background: var(--base); color: var(--ink); line-height: 1.5; min-height: 100vh; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-weight: 500; }
+  a { color: inherit; text-decoration: none; }
+  nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 64px; border-bottom: 1px solid var(--line); background: var(--white); }
+  .back-link { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+  .nav-name { font-size: 16px; font-weight: 500; }
+  .header { display: flex; gap: 60px; padding: 90px 64px; flex-wrap: wrap; }
+  .header-left { max-width: 760px; flex: 1; min-width: 320px; }
+  .eyebrow { color: var(--accent); font-size: 13px; font-weight: 500; margin-bottom: 20px; display: block; }
+  .header h1 { font-size: 44px; margin-bottom: 20px; }
+  .intro { color: var(--muted); font-size: 15.5px; line-height: 1.55; max-width: 700px; }
+  .facts-panel { background: var(--white); border: 1px solid var(--line); width: 476px; flex-shrink: 0; height: fit-content; }
+  .fact-row { padding: 18px 24px; border-bottom: 1px solid var(--line); }
+  .fact-row:last-child { border-bottom: none; }
+  .fact-label { color: var(--muted); font-size: 12.5px; margin-bottom: 4px; }
+  .fact-value { font-size: 14px; font-weight: 500; }
+  @media (max-width: 768px) {
+    nav { padding: 22px 20px; }
+    .header { padding: 40px 20px; }
+    .header h1 { font-size: 30px; }
+    .facts-panel { width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="back-link">← All work</a>
+  <span class="nav-name">Sandesh Sharma</span>
+</nav>
+
+<div class="header">
+  <div class="header-left">
+    <span class="eyebrow">Case study</span>
+    <h1>One Step</h1>
+    <p class="intro">A grocery platform for stores to manage orders and inventory, using a linear regression model to predict demand and alert for low stock or near-expiry items. Includes delivery routing, cost calculation, OTP verification, and QR scanning.</p>
+  </div>
+  <div class="facts-panel">
+    <div class="fact-row"><div class="fact-label">Role</div><div class="fact-value">Software developer</div></div>
+    <div class="fact-row"><div class="fact-label">Timeline</div><div class="fact-value">Completed, 2025</div></div>
+    <div class="fact-row"><div class="fact-label">Type</div><div class="fact-value">College project</div></div>
+    <div class="fact-row"><div class="fact-label">Stack</div><div class="fact-value">Full-stack development, database design</div></div>
+  </div>
+</div>
+
+</body>
+</html>
